@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #B7BF99;
+    border: 2px solid black;
+    text-shadow: 2px 2px 2px black;
+    color: #0A7373;
+    border-radius: 10px;
+}
+
+main {
+    display: flex; /*display: flex; Serve para colocar as divs uma do lado da outra*/
+    justify-content: space-around; /**/
+    text-align: justify;
+}
+
+.subt {
+    width: 30%; /*Significa largura*/
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.titulodois {
+    color: black;
+}
+
+.esporte {
+    background-color: #EDAA25;
+    color: white;
+}
+
+.negocios{
+    background-color: #C43302;
+    color: white;
+}

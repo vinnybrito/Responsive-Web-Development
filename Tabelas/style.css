@@ -1,0 +1,10 @@
+table {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    width: 20%;
+}
+
+thead {
+    text-align: center;
+    border: solid 1px black;
+}
