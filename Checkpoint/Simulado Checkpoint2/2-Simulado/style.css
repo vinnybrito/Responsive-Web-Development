@@ -1,0 +1,52 @@
+
+header {
+    background-color: #ed145b;
+    padding: 2px;
+    text-align: center;
+}
+
+#simulado {
+    font-size: 30px;
+    font-family: Arial;
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+}
+
+tbody {
+    text-align: center;
+}
+
+th {
+    background-color: #1e90ff;
+    padding: 10px;
+}
+
+tr {
+    background-color: rgb(189, 185, 185);
+}
+
+td {
+    padding: 10px;
+}
+
+#intervalo {
+    background-color: rgb(139, 137, 137);
+}
+
+form {
+    background-color: rgb(209, 206, 206);
+    padding: 30px;
+}

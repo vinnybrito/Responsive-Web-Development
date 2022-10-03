@@ -12,17 +12,18 @@ header {
 }
 
 main {
-    display: flex; /*display: flex; Serve para colocar as divs uma do lado da outra*/
+    display: flex; /*Serve para colocar as divs uma do lado da outra*/
     justify-content: space-around; /**/
-    text-align: justify;
+    text-align: justify; 
+    margin-top: 10px;
 }
 
 .subt {
-    width: 30%; /*Significa largura*/
-    padding: 15px;
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px black;
+    width: 30%; /*largura*/
+    padding: 15px; /*Alinhar o texto entre as bordas. para não ficarem coladas com as bordas*/
+    border: 2px solid black; /*Borda, espesura, solida, cor*/
+    border-radius: 10px; /*Arredondar as bordas criadas pelo background-color*/
+    box-shadow: 10px 10px 10px black; /*Sombra para as caixas*/
 }
 
 .titulodois {

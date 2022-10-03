@@ -1,0 +1,67 @@
+
+header {
+    background-color: #ed145b;
+    font-family: Arial;
+    padding: 30px;
+    text-align: center;
+}
+
+a {
+    font-size: 25px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+}
+
+th {
+    background-color: #1e90ff;
+    padding: 10px;
+}
+
+tbody {
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+.trmain {
+    background-color: rgb(189, 185, 185);
+}
+
+#trint {
+    text-align: center;
+    background-color: rgb(139, 137, 137);
+}
+
+#formulario {
+    background-color: rgb(209, 206, 206);
+    padding: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    background-color: #ed145b;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}

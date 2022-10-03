@@ -1,0 +1,51 @@
+
+body {
+    font-family: sans-serif; /*fonte sans-serif*/
+    text-align: justify; /*alinhamento de texto justificado*/
+    color: blue; /*cor de letra azul*/
+    width: 1200px; /*O tamanho site deve ser de 1200 px*/
+    margin: auto; /*centralizado*/
+}
+
+header {
+    border: 2px solid black;
+    width: 1200px; /*O cabeçalho do site deve ser de 1200 px*/
+    margin: auto; /*centralizado*/
+}
+
+h2 {
+    font-size: 35px; /*Os  títulos  devem  ter  tamanho  de  fonte  de  35px*/
+    margin: auto; /*centralizado*/
+    color: red; /*cor  de  texto vermelho*/
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+a {
+    text-decoration: none; /*Os links dos menus devem estar sem marcação*/
+    font-size: 25px; /*tamanho da fonte de 25px*/
+    color: red; /*cor da fonte vermelho*/
+}
+
+main {
+    margin-top: 30px;
+    display: flex;
+}
+
+article {
+    padding: 20px;
+}
+
+button {
+    width: 250px;
+    text-align: left;
+}
+
+footer {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}

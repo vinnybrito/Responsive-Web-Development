@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simulado Checkpoint 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a><strong>Simulado Checkpoint 2</strong></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="tabela">
+                <h2 class="titulotabela">Meu Horario Semanal</h2>
+                <table>
+                    <thead>
+                        <tr id="cabecalho">
+                            <th>Horário</th>
+                            <th>SEG</th>
+                            <th>TER</th>
+                            <th>QUA</th>
+                            <th>QUI</th>
+                            <th>SEX</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="aulas">
+                            <td>19:00 ás 21:00</td>
+                            <td>Disciplina 1</td>
+                            <td>Disciplina 2</td>
+                            <td>Disciplina 3</td>
+                            <td>Disciplina 4</td>
+                            <td>Disciplina 5</td>
+                        </tr>
+                        <tr id="intervalo">
+                            <td colspan="6">intervalo</td>
+                        </tr>
+                        <tr class="aulas">
+                            <td>21:15 ás 23:15</td>
+                            <td>Disciplina 1</td>
+                            <td>Disciplina 2</td>
+                            <td>Disciplina 3</td>
+                            <td>Disciplina 4</td>
+                            <td>Disciplina 5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="form">
+            <h2 id="tituloform">Fale Comigo</h2>
+            <div id="formulario">
+                <p><label for="idnome">Nome:</label><br><input type="text" id="idnome" name="idnome"></p>
+
+                <label for="idassunto">Assunto:</label><br><input type="text" id="idassunto" name="idassunto"><br>
+    
+                <label for="idemail">E-mail: </label><br><input type="text" id="idemail" name="idemail"><br>
+
+                <label for="idemail">Mensagem: </label><br>
+
+                <input type="submit" value="Enviar" id="idEnviar">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <strong>Simulado Checkpoint</strong>
+    </footer>
+</body>
+</html>
