@@ -1,0 +1,77 @@
+
+header {
+    background-color: rgb(102,187,34);
+    text-align: center;
+    padding: 6px;
+}
+
+ul {
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+main {
+    margin-top: 30px;
+}
+
+#idnome {
+    width: 500px;
+}
+
+form {
+    size: 40%;
+}
+
+#idsobrenome {
+    width: 500px;
+}
+
+#iddescricao{
+    width: 500px;
+}
+
+#idcomprar {
+    background-color: rgb(102,187,34);
+    color: white;
+}
+
+#contato {
+    justify-content: space-around;
+    display: flex;
+}
+
+#primeira {
+    display: flex;
+    justify-content: space-around;
+}
+
+#segunda {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+section {
+    text-align: center;
+}
+.numero {
+    width: 50px;
+}
+
+footer {
+    background-color: rgb(102,187,34);
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
