@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+}
+
+    /*----------------------------------Header----------------------------------*/
+
+header {
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+#imagem-logo {
+    height: 60px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: #BF4141;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 15px;
+    border-radius: 10px;
+}
+
+
+    /*--------------------------------Main-Principal--------------------------------*/
+
+main {
+    margin-top: 30px;
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#banner {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#descricao-banner {
+    background-color: #F0F0F0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 770px;
+    padding: 15px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+    /*----------------------------------Artigos----------------------------------*/
+
+#artigos {
+    display: flex;
+    margin-top: 20px;
+}
+
+article {
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.icon {
+    height: 50px;
+}
+
+.h2-artigo {
+    color: #BF4141;
+}
+
+button {
+    background-color: #393939;
+    padding: 14px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+}
+
+    /*--------------------------------Atividade--------------------------------*/
+
+.atividade-titulo {
+    color: white;
+    background-color: #BF4141;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tamanho-pgf {
+    font-size: 20px;
+}
+
+    /*------------------------------------Footer------------------------------------*/
+
+footer {
+    background-color: #393939;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
