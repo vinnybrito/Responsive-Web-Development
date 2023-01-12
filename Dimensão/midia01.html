@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0%;
+            background-color: gray;
+        }
+
+        article {
+            height: 100%;
+            border: 1px solid black;
+        }
+
+        @media screen and (max-width: 480px) {
+            .bloco1, .bloco2, .bloco3, .bloco4 {
+                height: 100%;
+                width: 100%;
+                background-color: red;
+            }
+        }
+
+        @media screen and (min-width: 481px) and (max-width: 768px) {
+            .bloco1, .bloco2, .bloco3, .bloco4 {
+                height: 100%;
+                box-sizing: border-box;
+                float: left;
+                width: 50%;
+                background-color: yellow;
+            }
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 1279px) {
+            .bloco1, .bloco2, .bloco3 {
+                height: 100%;
+                box-sizing: border-box;
+                float: left;
+                width: 33.33%;
+                background-color: green;
+            }
+
+            .bloco4 {
+                height: 100%;
+                clear: both;
+                width: 100%
+            }
+        }
+        @media screen and (min-width: 1280px) {
+            .bloco1, .bloco2, .bloco3, .bloco4 {
+                box-sizing: border-box;
+                width: 25%;
+                background-color: blue;
+                float: left;
+            }
+        } 
+
+    </style>
+</head>
+<body>
+    <section>
+        <article class="bloco1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, quis saepe ab magni delectus fuga velit reprehenderit sint adipisci repudiandae nemo, quasi est atque in expedita officiis repellat voluptate dolore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, autem aspernatur veritatis iusto ex omnis praesentium debitis doloribus! Quis totam rerum molestias provident et cupiditate hic unde facilis consectetur temporibus!
+        </article>
+        <article class="bloco2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, quis saepe ab magni delectus fuga velit reprehenderit sint adipisci repudiandae nemo, quasi est atque in expedita officiis repellat voluptate dolore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, autem aspernatur veritatis iusto ex omnis praesentium debitis doloribus! Quis totam rerum molestias provident et cupiditate hic unde facilis consectetur temporibus!
+        </article>
+        <article class="bloco3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, quis saepe ab magni delectus fuga velit reprehenderit sint adipisci repudiandae nemo, quasi est atque in expedita officiis repellat voluptate dolore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, autem aspernatur veritatis iusto ex omnis praesentium debitis doloribus! Quis totam rerum molestias provident et cupiditate hic unde facilis consectetur temporibus!
+        </article>
+        <article class="bloco4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, quis saepe ab magni delectus fuga velit reprehenderit sint adipisci repudiandae nemo, quasi est atque in expedita officiis repellat voluptate dolore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, autem aspernatur veritatis iusto ex omnis praesentium debitis doloribus! Quis totam rerum molestias provident et cupiditate hic unde facilis consectetur temporibus!
+        </article>
+    </section>
+</body>
+</html>

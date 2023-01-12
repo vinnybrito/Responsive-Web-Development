@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    margin-bottom: 0%;
+}
+
+#principal-login {
+    display: flex;
+    font-family: 'Inria Sans', sans-serif;;
+}
+
+#info-log {
+   text-align: center;
+}
+
+.caixalogin {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+#esqueceu-senha {
+    text-decoration: none;
+    color: black;
+}
+
+#idLogin {
+    color: white;
+    background-color: rgba(41, 41, 41, 1);
+    border: 0px;
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+}
+
+#Criar-conta {
+    text-decoration: none;
+    color: black;
+}

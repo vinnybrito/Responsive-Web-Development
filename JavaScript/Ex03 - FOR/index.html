@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="exibirValor"></div>
+</body>
+<script>
+    const linguagens = ["Javascript", "Java", "python", "c#"]
+    console.log(`Valor: ${linguaguens[0]}`);
+    document.getElementById("exibiValorVetor").innerHTML+=`Valor: ${linguaguens[0]} <br/>`
+    document.getElementById("exibiValorVetor").innerHTML+=`Valor: ${linguaguens[1]} <br/>`
+    document.getElementById("exibiValorVetor").innerHTML+=`Valor: ${linguaguens[2]} <br/>`
+    document.getElementById("exibiValorVetor").innerHTML+=`Valor: ${linguaguens[3]} <br/>`
+    document.getElementById("exibiValorVetor").innerHTML+=`Valor: ${linguaguens[4]} <br/>`
+    linguaguens[4] = "PHP"
+    
+    document.getElementById("exibiValorVetor").innerHTML+=`Valor: ${linguaguens[4]} <br/>`
+    document.getElementById("exibiValorVetor").innerHTML+=`Valor: ${linguaguens[5]} <br/>`
+    document.getElementById("exibiValorVetor").innerHTML+=`Valor: ${linguaguens[6]} <br/>`
+    document.getElementById("exibiValorVetor").innerHTML+=`Valor: ${linguaguens[7]} <br/>`
+    document.getElementById("exibiValorVetor").innerHTML+=`Valor: ${linguaguens[8]} <br/>`
+
+    //for
+    const objDiv = document.getElementById('exibirValor')
+    for(let ind=0; ind<5; ind++){
+        console.log("valor", ind); //quando eu quero printat o que está acontecendo no código;
+        objDiv.innerHtml = objDiv.innerHTML + "For: " + ind + '<br/>';
+    }
+
+    //while
+    let valor = 0;
+
+    while(valor<5){
+        console.log("Valor", valor);
+        objDiv.innerHtml = objDiv.innerHTML + "While: " + valor + '<br/>';
+    }
+
+    valor = 0;
+    do{
+        console.log("Valor", valor);
+        objDiv.innerHtml = objDiv.innerHTML + "Do While: " + valor + '<br/>';
+    }while(valor<5)
+
+</script>
+</html>

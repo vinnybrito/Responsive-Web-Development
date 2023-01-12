@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="/cartao" method="post" onsubmit="return gravar()">
+        <label for="idPlano">Plano</label>
+        <select name="" id="idPlano">
+            <option value="b">Básico</option>
+            <option value="p">Profissional</option>
+            <option value="pl">Plus</option>
+        </select> <br> <br>
+
+        <label for="idNome">Nome:</label>
+        <input type="text" id="idNome" name="idNome">
+        <br> <br>
+
+        <label for="idSobreNome">Sobrenome:</label>
+        <input type="text" id="idSobreNome" name="idSobreNome">
+        <br> <br>
+
+        <label for="idCartao">Cartão de crédito</label>
+        <input type="text" id="idCartao" name="idCartao" onblur="mascaraCartao(this)" onfocus="">
+        <br> <br>
+
+        <button id="btnGravarPlano" type="submit">Gravar Plano</button>
+    </form>
+</body>
+<script>
+    function mascaraCartao(campoTexto) {
+        window.alert("Entrou")
+        campoTexto.value = campoTexto.value.replace(/(\d{4}) (\d{4}) (\d{4}) (\d{4})/g, "\$1.\$2.\$3.\$4")
+    }
+
+    function gravar() {
+        let nome = document.getElementById('idNome')
+        let sobrenome = document.getElementById('idNome')
+        let cartao = document.getElementById('idNome')
+        let envio = false
+
+        if(nome.value.lenght==0){
+
+        }
+        else if (sobrenome.)
+    }
+</script>
+</html>

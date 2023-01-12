@@ -1,4 +1,8 @@
 
+* {
+    margin: 0;
+}
+
 header {
     background-color: rgb(102,187,34);
     text-align: center;
@@ -12,7 +16,7 @@ ul {
 }
 
 a {
-    font-size: 25px;
+    font-size: 28px;
     text-decoration: none;
     color: black;
 }

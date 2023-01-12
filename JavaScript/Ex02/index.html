@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: red;
+            color: white;
+        }
+    </style>
+    <script>
+        alert("Dentro da página");
+        function mostraMenor(pNum1, pNum2){
+            let nr1 = parseInt(pNum1);
+            let nr2 = parseInt(pNum2);
+            let objDiv = document.getElementById("idResultado");
+            let resultado = "";
+            
+            if(nr1 > nr2){
+                resultado = "Número " + nr1 + " é maior do que o " + nr2 +"!";
+            }
+            else if(nr1 == nr2){
+                resultado = "Número " + nr1 + " é igual á " + nr2 +"!";
+            }
+            else{
+                resultado = "Número " + nr1 + " é menor que " + nr2 +"!";
+            }
+            objDiv.innerHTML = resultado;
+        }
+    </script>
+</head>
+<body>
+    <label for="txtNumero1">Número</label>
+    <input type="text" id="txtNumero1">
+
+    <label for="txtNumero2">Número</label>
+    <input type="text" id="txtNumero2">
+
+    <input type="button" value="Mostar o menor" 
+        onclick="mostraMenor(
+            document.getElementById('txtNumero1'.value)),
+            document.getElementById('txtNumero2'.value);">
+
+    <hr>
+
+    <label for="txtNumero3">Número</label>
+    <input type="text" id="txtNumero3">
+
+    <label for="txtNumero4">Número</label>
+    <input type="text" id="txtNumero4">
+
+    <input type="button" value="Mostar o menor" 
+        onclick="mostraMenor(
+            document.getElementById('txtNumero3').value),
+            document.getElementById(('txtNumero4').value)">
+    <br>
+
+    <div id="idResultado">Teste do número menor</div>
+</body>
+<script src="js/script01.js"></script>
+</html>
