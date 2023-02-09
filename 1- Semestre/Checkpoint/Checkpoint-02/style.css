@@ -1,12 +1,15 @@
 
 * {
     margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: rgb(102,187,34);
     text-align: center;
     padding: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 ul {
@@ -27,6 +30,7 @@ a:hover {
 
 main {
     margin-top: 30px;
+    
 }
 
 #idnome {
@@ -48,6 +52,7 @@ form {
 #idcomprar {
     background-color: rgb(102,187,34);
     color: white;
+    border: 1px solid black;
 }
 
 #contato {
@@ -78,4 +83,6 @@ footer {
     padding: 10px;
     color: white;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
