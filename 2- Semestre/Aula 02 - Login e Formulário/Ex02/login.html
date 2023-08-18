@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main-principal">
+
+        <div id="div-img">
+            <figure>
+                <img src="img/car.jpeg" id="img-principal">
+            </figure>
+        </div>
+
+        <div id="div-titulo">
+            <h1 id="h1-form">LOGIN</h1>
+        </div>
+    
+        <div id="div-principal">
+            <form name="form" method="post" id="formm" action="menu.html"> <!--action="get" fica visivel na URL-->
+    
+                <label for="usuario" class="titulos-label">Usuário:</label> <br>
+                <input type="email" class="caixa" required="required" id="usuarioid">
+    
+                <br>
+    
+                <label for="password" class="titulos-label">Senha:</label> <br>
+                <input type="password" class="caixa" required="required" id="senhaid">
+    
+                <br> <br>
+    
+                <input type="submit" value="Entrar" onclick="Logar()" id="btn-login">
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

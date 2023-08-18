@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calcule o seu IMC</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body-imc">
+    
+    <header id="cabecalho-site">
+
+        <div>
+            <figure>
+                <img src="imagens/login/log-gym.png" id="img-logo">
+            </figure>
+        </div>
+
+        <nav id="menu-de-navegacao">
+
+            <ul id="ul-list">
+
+                <li class="li-list">
+                    <a href="principal.html" class="a-list">principal</a>
+                </li>
+
+                <li class="li-list">
+                    <a href="imc.html" class="a-list">imc</a>
+                </li>
+
+                <li class="li-list">
+                    <a href="login.html" class="a-list">login</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <article id="art-imc">
+
+            <section id="sec01">
+                <figure>
+                    <img src="imagens/imc/peso-levantado.png" id="img-imc" class="foto">
+                </figure>
+            </section>
+
+            <section id="sec02">
+
+                <form name="imc" action="" method="post">
+                    <h1 id="titulo-1">Calcule o seu IMC</h1>
+
+                    <div id="div-calculeimc">
+
+                        <div id="divimc-1">
+                            <label for="peso" id="pesoid">Digite o seu peso (em kg):</label> <br>
+                            <input type="number" class="inputclass" id="peso">
+                        </div>
+
+                        <div id="divimc-2">
+                            <label for="altura" id="alturaid">Digite a sua altura em (m):</label> <br>
+                            <input type="number" class="inputclass" id="altura">
+                        </div>
+
+                        <div id="divimc-3">
+                            <label for="idSexo">Sexo Biológico:</label> <br>
+                            <input type="radio" id="idSexoM" name="idSexo"> Masculino
+                            <input type="radio" id="idSexoF" name="idSexo"> Feminino
+                        </div>
+
+                        <div id="divimc-4">
+                            <input type="submit" value="Calcular" id="btn-calcular" onclick="calcularImc()"> 
+                            <textarea name="" id="text_area" rows="1"></textarea>
+                        </div>
+
+                        <div>
+                            <span id="resultado"></span>
+                        </div>
+
+                    </div>
+                </form>
+
+            </section>
+
+        </article>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

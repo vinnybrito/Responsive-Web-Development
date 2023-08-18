@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Fitness Gym</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body-login">
+
+    <main id="main-login">
+
+        <section id="imagem-login">
+            <figure>
+                <img src="imagens/login/young-gym.jpg" id="img-gym">
+            </figure>
+        </section>
+
+        <section id="formulario-login">
+
+            <form name="form" action="imc.html" method="post">
+
+                <h1 id="tituloh1">Faça o seu Login</h1>
+
+                <div id="div1">
+                    <label for="email" id="email">Endereço de E-mail</label> <br>
+                    <input type="email" class="input-log" id="emailid">
+                </div>
+
+                <div id="div2">
+                    <label for="password" id="password">Senha</label> <br>
+                    <input type="password" class="input-log" id="passwordid">
+                </div>
+
+                <div id="div3">
+                    <input type="submit" value="Login" id="login-button" onclick="Login()">
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------------------PRINCIPAL----------------------------------*/
+
+/*------------------HEADER------------------*/
+
+#body-imc {
+    font-family: 'Outfit', sans-serif; 
+    background-color: #1f1f1f;
+    height: 550px;
+}
+
+#cabecalho-site { /*<header>*/
+    background-image: linear-gradient(to top, #f6b902, #e19405);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#img-logo {
+    width: 90px;
+    margin-left: 30px;
+}
+
+#ul-list {
+    display: flex;
+    list-style: none;
+    margin-top: 12px;
+}
+
+.li-list {
+    margin: 20px;
+    margin-right: 60px;
+}
+
+.a-list { /*<a>*/
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: 0.6s;
+    font-weight: bolder;
+}
+
+.a-list:hover { /*<a>*/
+    
+    transition: 0.6s;
+    text-shadow: 0px 0px 10px black;
+    color: #1f1f1f;
+}
+
+/*------------------MAIN------------------*/
+
+
+/*-------------------------------------IMC-------------------------------------*/
+
+
+#art-imc { /*<article>*/
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: white;
+}
+
+#sec01 {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.foto {
+    max-width: 350px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+
+}
+
+#sec02 {
+    width: 330px;
+    margin-right: 130px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+#titulo-1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.inputclass {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 325px;
+    height: 30px;
+    background-color: white;
+    display: flex;  
+    justify-content: center;  
+    text-align: center;
+    
+}
+
+#pesoid {
+    margin-left: 13px;
+}
+
+#alturaid {
+    margin-left: 13px;
+}
+
+#idSexoM {
+    margin-left: 15px;
+}
+
+#idSexoF {
+    margin-left: 15px;
+}
+
+#div-calculeimc {
+    margin-top: 15px;
+}
+
+#divimc-2 {
+    margin-top: 15px;
+}
+
+#divimc-3 {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#divimc-4 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#btn-calcular {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    transition: 0.5s;
+    background-color: #f2b705;
+    color: white;
+    font-size: 18px;
+}
+
+#btn-calcular:hover {
+    background-image: linear-gradient(to right, #f2b705, #ffa500, #C87E03, #a9500c, #ff6600, #a9500c, #C87E03, #f2b705);
+    animation: degrade-animado 2s infinite alternate ;
+    background-size: 500% 100%;
+    transition: 0.5s;
+}
+
+#text_area {
+    margin-left: 25px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 225px;
+    height: 35px;
+    background-color: white;
+    text-align: center;
+}
+
+
+/*------------------------------------LOGIN------------------------------------*/
+
+#body-login { /*<body>*/
+    color: white;
+    background-color: #1f1f1f;
+}
+
+#main-login { /*<main>*/
+    display: flex;
+    margin: auto;
+    font-family: 'Outfit', sans-serif;  
+    font-weight: normal;
+}
+
+#imagem-login { /*<section>*/
+    width: 530px;
+    height: 512px;
+}
+
+#img-gym { /*<img>*/
+    width: 525px;
+}
+
+#formulario-login { /*<section>*/
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 100px;
+    height: 300px;
+}
+
+#tituloh1 { /*<h1>*/
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 35px;
+}
+
+#div1 { /*<div>*/
+    margin-top: 50px;
+}
+
+#email { /*<label>*/
+    margin-left: 35px;   
+}
+
+#div2 { /*<div>*/
+    margin-top: 20px;
+}
+
+#password { /*<label>*/
+    margin-left: 35px;
+}
+
+#div3 { /*<div>*/
+    margin-top: 40px;
+}
+
+.input-log { /*<input>*/
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 350px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.input-log:hover { /*<input>*/
+    background-color: #e1e9ef;
+}
+
+#login-button { /*<input>*/
+    background-color: #f2b705;
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#login-button:hover { /*<input>*/
+    background-image: linear-gradient(to right, #f2b705, #ffa500, #C87E03, #a9500c, #ff6600, #a9500c, #C87E03, #f2b705);
+    animation: degrade-animado 2s infinite alternate ;
+    background-size: 500% 100%;
+    transition: 0.5s;
+    
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+Integrantes da dupla:
+
+Vinicius Rodrigues Brito          RM:97473
+Vinicius Almeida Kotchetkoff      RM:96331
+
+Link GitHub:
+https://github.com/vinnybrito/Checkpoint-ResponsiveWeb5
